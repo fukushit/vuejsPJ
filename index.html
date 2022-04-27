@@ -12,18 +12,13 @@
 
   <div id="app">
     {{ message }}
-    <a v-bind:href="google">googleへのリンク</a>
-    <br>
-    <a href="book.url">title</a>
-    <br>
-    <input v-bind:href="formInput">
   </div>
   <script>
     let app = new Vue({
       el: '#app',
       data(){//初期設定
         return{
-          message: 'Hello Vue!',
+          message: 'Hello World!',
           google: 'https://google.com',
           book: {
             title:'本のタイトル',
