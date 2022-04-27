@@ -13,7 +13,7 @@
 
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    {{ message }}
+    <div>{{ message }}</div>
   </div>
   <script>
     let app = new Vue({
@@ -21,15 +21,6 @@
       data(){//初期設定
         return{
           message: 'Hello World!',
-          google: 'https://google.com',
-          book: {
-            title:'本のタイトル',
-            url: 'https://google.com'
-          },
-          formInput:{
-            name: 'your_name',
-            placeholder: 'お名前を入力してください'
-          }
         }
       }
     })
